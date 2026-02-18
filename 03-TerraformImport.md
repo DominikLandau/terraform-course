@@ -46,6 +46,10 @@ These changes to the our user are not instant for it to work we need to logout o
 ``` bash
 id
 ```
+User newgrp to load the group
+``` bash
+newgrp docker
+```
 
 ### Setup example
 First we need to create a provider config.
