@@ -534,7 +534,7 @@ EOF
 
 To get the container id run the following command.
 ``` bash
-docker inspect manual-nginx | grep "Id"
+docker inspect manual-nginx2 | grep "Id"
 ```
 
 To get the state path use the following command.
