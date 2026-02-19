@@ -46,6 +46,10 @@ These changes to the our user are not instant for it to work we need to logout o
 ``` bash
 id
 ```
+User newgrp to load the group
+``` bash
+newgrp docker
+```
 
 ### Setup example
 First we need to create a provider config.
@@ -530,7 +534,7 @@ EOF
 
 To get the container id run the following command.
 ``` bash
-docker inspect manual-nginx | grep "Id"
+docker inspect manual-nginx2 | grep "Id"
 ```
 
 To get the state path use the following command.
