@@ -1,0 +1,10 @@
+direction: "Inbound"
+name: "RFC1918-Networks"
+prio: "4000"
+access: "Allow"
+protocol: "*"
+description: "Allow-RFC1918-Networks"
+source_addresses: ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+source_port: "*"
+dest_add: "*"
+dest_port: "*"
